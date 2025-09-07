@@ -21,8 +21,8 @@ body {
   color: white;
   font-weight: bold;
   font-size: 30px;
-  height: 60rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(sodyba.avif);
+  height: 55rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('/sodyba.avif');
   background-position: center;
   background-size: cover;
   border-bottom: solid;
@@ -35,6 +35,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   height: 60%;
+  object-fit: contain;
 }
 
 .welcome-text {
@@ -111,7 +112,6 @@ body {
 }
 
 .reserve-container {
-  
   margin: 0 auto;
   border-radius: 12px;
 }
@@ -124,6 +124,7 @@ body {
   margin-bottom: 28px;
   margin-top: 5rem;
   color: white;
+  text-align: center;
 }
 
 .phone-number {
@@ -200,10 +201,22 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+  .introductions {
+    font-size: 12px;
+  }
+}
+
 @media (max-width: 1300px) {
   .services-text, .leisure-text, .parties-text {
     font-size: 30px;
     justify-content: center;
+  }
+}
+
+@media (max-width: 1300px) {
+  .services-text, .leisure-text, .parties-text {
+    font-size: 25px;
   }
 }
 
@@ -214,9 +227,45 @@ body {
   }
 }
 
+@media (max-width: 1300px) {
+  .services {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .gallery {
+    font-size: 25px;
+  }
+}
+
 @media (max-width: 800px) {
   .logos-container {
     flex-direction: column;
     gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .or-text {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .prie-ezero-logo, .booking-logo {
+    height: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .reserve, .phone-number, .destination {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .closing-text {
+    font-size: 20px;
   }
 }
