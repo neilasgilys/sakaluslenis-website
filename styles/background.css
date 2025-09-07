@@ -4,4 +4,5 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-size: 100% auto;
+  position: absolute;
 }
