@@ -22,7 +22,7 @@ body {
   font-weight: bold;
   font-size: 30px;
   height: 55rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('/sodyba.avif');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(sodyba.avif);
   background-position: center;
   background-size: cover;
   border-bottom: solid;
