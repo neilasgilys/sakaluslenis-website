@@ -185,13 +185,7 @@ body {
 
 @media (max-width: 800px) {
   .introductions {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 600px) {
-  .introductions {
-    font-size: 11px;
+    font-size: 12px;
   }
 }
 
@@ -211,13 +205,7 @@ body {
 @media (max-width: 1300px) {
   .services {
     flex-direction: column;
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 1300px) {
-  .services {
-    font-size: 11px;
+    font-size: 12px;
   }
 }
 
