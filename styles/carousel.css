@@ -98,3 +98,9 @@
     width: 42px;
   }
 }
+
+@media (orientation: landscape) {
+  .carousel {
+    height: 280px;
+  }
+}
