@@ -157,3 +157,9 @@ nav .items {
     columns: 95px;
   }
 }
+
+@media (orientation: landscape) {
+  .image-box img {
+    height: 250px;
+  }
+}
