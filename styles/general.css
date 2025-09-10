@@ -32,6 +32,7 @@ body {
   margin-right: auto;
   height: 60%;
   object-fit: contain;
+  padding-top: 80px;
 }
 
 .introductions {
@@ -235,5 +236,6 @@ body {
 @media (orientation: landscape) {
   .sakalu-slenis-logo {
     height: 50%;
+    padding-top: 0;
   }
 }
