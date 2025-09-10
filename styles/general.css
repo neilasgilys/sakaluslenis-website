@@ -168,21 +168,6 @@ body {
   font-size: 40px;
 }
 
-@media (max-width: 800px) {
-  .logo {
-    height: 90px;
-  }
-}
-
-@media (max-width: 800px) {
-  .welcome-texts {
-    font-size: 20px;
-  }
-  .logo {
-    height: 100px;
-  }
-}
-
 @media (max-width: 1300px) {
   .introductions {
     font-size: 12px;
