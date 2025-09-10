@@ -239,3 +239,15 @@ body {
     padding-top: 0;
   }
 }
+
+@media (orientation: landscape) {
+  #entry {
+    scroll-margin-top: 0;
+  }
+}
+
+@media (orientation: landscape) {
+  #reserve {
+    scroll-margin-top: 150px;
+  }
+}
