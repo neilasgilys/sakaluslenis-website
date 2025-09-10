@@ -91,3 +91,10 @@
     height: 300px;
   }
 }
+
+@media (max-width: 800px) {
+  .carousel__button {
+    font-size: 30px;
+    width: 42px;
+  }
+}
