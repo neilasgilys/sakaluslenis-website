@@ -230,3 +230,9 @@ body {
     font-size: 20px;
   }
 }
+
+@media (orientation: landscape) {
+  .sakalu-slenis-logo {
+    height: 50%;
+  }
+}
