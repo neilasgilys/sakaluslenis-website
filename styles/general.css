@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Merriweather;
+}
+
+#entry {
+  scroll-margin-top: 80px;
+}
+
+#gallery {
+  scroll-margin-top: 100px;
+}
+
+#reserve {
+  scroll-margin-top: 430px;
+}
+
+.welcome-texts {
+  height: 55rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(sodyba.avif);
+  background-position: center;
+  background-size: cover;
+  border-bottom: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+.sakalu-slenis-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60%;
+  object-fit: contain;
+  padding-top: 80px;
+}
+
+.introductions {
+  background: rgb(103, 74, 53);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 18px;
+  color: white;
+  line-height: 30px;
+  gap: 20px;
+  margin: auto;
+  padding-top: 4rem;
+  padding-bottom: 20px;
+  width: 80%;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.introduction, .second-introduction {
+  width: 80%;
+  text-align: justify;
+}
+
+.closing-text {
+  padding-top: 15rem;
+  font-size: 27px;
+  font-weight: bold;
+  padding-bottom: 15rem;
+  color: white;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.services-text {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border-top: solid rgb(255, 255, 255) 1px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  gap: 50px;
+}
+
+.leisure-text {
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.parties-text {
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.reserve-container {
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.reserve {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  margin-bottom: 28px;
+  margin-top: 5rem;
+  color: white;
+  text-align: center;
+}
+
+.phone-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.or-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.logos-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 3rem;
+}
+
+.prie-ezero-logo {
+  margin-bottom: 2px;
+}
+
+.prie-ezero-logo, .booking-logo {
+  object-fit: cover;
+  height: 40px;
+}
+
+.destination {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  color: white;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+}
+
+.gallery {
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+}
+
+@media (max-width: 1300px) {
+  .introductions {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .services-text, .leisure-text, .parties-text {
+    font-size: 30px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1300px) {
+  .services-text, .leisure-text, .parties-text {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .services {
+    flex-direction: column;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .gallery {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 800px) {
+  .logos-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .or-text {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .prie-ezero-logo, .booking-logo {
+    height: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .reserve, .phone-number, .destination {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .closing-text {
+    font-size: 20px;
+  }
+}
+
+@media (orientation: landscape) {
+  .sakalu-slenis-logo {
+    height: 50%;
+    padding-top: 0;
+  }
+}
+
+@media (orientation: landscape) {
+  #entry {
+    scroll-margin-top: 0;
+  }
+}
+
+@media (orientation: landscape) {
+  #reserve {
+    scroll-margin-top: 150px;
+  }
+}
