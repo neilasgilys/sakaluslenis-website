@@ -1,6 +1,6 @@
 .carousel {
   position: relative;
-  height: 550px;
+  height: 390px;
   width: 80%;
   margin: 0 auto;
   padding-top: 5rem;
@@ -80,14 +80,14 @@
 
 .is-hidden { display: none; }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .carousel__button {
     font-size: 30px;
     width: 42px;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .carousel {
     height: 300px;
   }
