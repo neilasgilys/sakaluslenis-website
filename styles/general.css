@@ -121,8 +121,8 @@ body {
   justify-content: center;
   font-weight: bold;
   font-size: 30px;
-  color: white;
-  text-decoration: none;
+  color: inherit;
+  tect-decoration: none;
 }
 
 .or-text {
