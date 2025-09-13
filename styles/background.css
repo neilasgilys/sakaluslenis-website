@@ -3,7 +3,11 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  background-size: 100% auto;
-  --webkit-background-size: 100% auto;
-  --moz-background-size: 100% auto;
+  background-size: cover
+}
+
+@media (max-width: 500px) {
+  body {
+    background-attachment: scroll;
+  }
 }
