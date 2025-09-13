@@ -1,0 +1,14 @@
+.map-container {
+  display: flex;
+  justify-content: center;
+  margin-right: 22px;
+  margin-left: 22px;
+}
+
+#map {
+  min-width: 200px;
+  width: 80%;
+  min-height: 260px;
+  height: 400px;
+  border-radius: 15px;
+}
