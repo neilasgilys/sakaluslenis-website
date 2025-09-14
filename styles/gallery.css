@@ -154,6 +154,6 @@ nav .items {
 
 @media (max-height: 600px) {
   .image-box img {
-    height: 250px;
+    height: 360px;
   }
 }
