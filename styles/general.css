@@ -13,7 +13,7 @@ body {
 }
 
 .welcome-texts {
-  height: 55rem;
+  padding-bottom: 350px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(mini_background_1.jpeg);
   background-position: center;
   background-size: cover;
@@ -26,8 +26,9 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 60%;
+  height: 40%;
   object-fit: contain;
+  padding-top: 7rem;
 }
 
 .introductions {
@@ -230,18 +231,5 @@ body {
 @media (max-width: 1400px) {
   .welcome-texts {
     height: 64rem;
-  }
-}
-
-@media (max-width: 800px) {
-  .sakalu-slenis-logo {
-    height: 40%;
-    padding-top: 80px;
-  }
-}
-
-@media (max-width: 500px) {
-  .sakalu-slenis-logo {
-    height: 30%;
   }
 }
