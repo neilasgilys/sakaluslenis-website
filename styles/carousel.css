@@ -39,8 +39,9 @@
 .carousel__button {
   position: absolute;
   top: 50%;
-  font-size: 40px;
-  width: 55px;
+  font-size: 46px;
+  width: 88px;
+  height: 61px;
   background: rgba(255, 255, 255, .1);
   border: 2px solid rgb(255, 255, 255);
   color: white;
@@ -82,15 +83,17 @@
 
 @media (max-width: 900px) {
   .carousel__button {
-    font-size: 34px;
-    width: 48px;
+    font-size: 36px;
+    width: 78px;
+    height: 51px;
   }
 }
 
 @media (max-width: 500px) {
   .carousel__button {
-    font-size: 30px;
-    width: 42px;
+    font-size: 26px;
+    width: 68px;
+    height: 41px;
   }
 }
 
