@@ -1,9 +1,9 @@
-.background {
+.body {
   position: relative;
   overflow: hidden;
 }
 
-.background::before {
+body::before {
   content: "";
   position: fixed;
   top: 0;
