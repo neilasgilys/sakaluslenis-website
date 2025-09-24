@@ -15,7 +15,7 @@ body {
 
 .welcome-texts {
   padding-bottom: 350px;
-  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 0)), url(mini_background_1.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .3)), url(mini_background_1.jpeg);
   background-position: center;
   background-size: cover;
   border-bottom: solid;
