@@ -4,8 +4,6 @@ body {
   font-family: Merriweather;
   background-color: black;
   overflow-x: hidden;
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
 }
 
 #pradzia {
