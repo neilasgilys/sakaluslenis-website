@@ -1,8 +1,14 @@
 .background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(background.jpeg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   position: relative;
+  overflow: hidden;
+}
+
+.background .background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  heiught: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
