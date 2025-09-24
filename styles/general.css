@@ -3,6 +3,8 @@ body {
   padding: 0;
   font-family: Merriweather;
   background-color: black;
+  min-height: 100%;
+  overflow-x: hidden;
 }
 
 #pradzia {
