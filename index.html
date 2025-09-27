@@ -415,5 +415,13 @@
       </div>
       <a class="copyright">&#169 2025 Sodyba Sakalų slėnis</a>
     </div>
+
+        <script>
+      function setVH() {
+        document.documentElement.style.setProperty('--vh', window.innerHeight * 0.01 + 'px');
+      }
+      setVH();
+      window.addEventListener('resize', setVH);
+    </script>
   </body>
 </html>
