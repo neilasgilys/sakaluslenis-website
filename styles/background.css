@@ -5,8 +5,7 @@ body {
   background-color: rgb(21, 21, 21);
 }
 
-body::before {
-  content: "";
+.background {
   position: fixed;
   top: 0;
   left: 50%;
