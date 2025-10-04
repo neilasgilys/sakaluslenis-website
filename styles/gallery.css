@@ -150,4 +150,6 @@ nav .items {
 
 .shadow.show {
   display: block;
+  overflow: hidden;
+  position: fixed;
 }
