@@ -4,3 +4,12 @@ body {
   font-family: Merriweather;
   background-color: rgb(17, 17, 17);
 }
+
+.background-image {
+  background-image: url(background.jpeg);
+  max-width: 2560px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
