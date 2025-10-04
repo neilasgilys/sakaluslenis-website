@@ -7,7 +7,7 @@
 }
 
 .welcome-texts {
-  background-image: radial-gradient(rgba(0, 0, 0, .3), rgb(0, 0, 0, .5)), url(mini_background_1.jpeg);
+  background-image: radial-gradient(rgba(0, 0, 0, .7), rgb(0, 0, 0, 0)), url(mini_background_1.jpeg);
   background-position: center;
   background-size: cover;
   height: 38rem;
