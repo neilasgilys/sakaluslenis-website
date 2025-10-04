@@ -6,9 +6,19 @@ body {
 }
 
 .background-image {
+  position: relative;
+  z-index: 1;
+}
+
+.background-image::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
   background-image: url(background.jpeg);
   max-width: 2560px;
   margin: 0 auto;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
 }
