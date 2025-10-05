@@ -144,6 +144,7 @@ nav .items {
   z-index: 100;
   display: none;
   background: rgba(0, 0, 0, 0.7);
+  transform: translateZ(0);
 }
 
 .shadow.show {
