@@ -38,7 +38,6 @@ shadow = document.querySelector(".shadow");
 function preview(element){
     //once user clicks on any image, scrollbar disappears
     document.querySelector("body").style.overflowY = "hidden";
-    document.body.classList.add("scroll-off");
     let selectedPrevImg = element.querySelector("img").src; //getting user clicked image source link and store in a variable
     let selectedImgCategory = element.getAttribute("data-name"); //getting user clicked data-name value
     categoryName.textContent = selectedImgCategory; //passing the data-name value to category name variable
@@ -49,6 +48,5 @@ function preview(element){
         previewBox.classList.remove("show"); //hide the preview box
         shadow.classList.remove("show"); //hide the shadow color
         document.querySelector("body").style.overflowY = "scroll"; //shows the scroll bar
-        document.body.classList.remove("scroll-off");
     }
 }
