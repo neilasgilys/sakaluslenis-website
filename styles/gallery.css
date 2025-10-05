@@ -23,6 +23,7 @@ nav .items .item {
   transition: all 0.3s ease;
   text-align: center;
   align-content: center;
+  border: solid 1px rgb(96, 96, 96);
 }
 
 nav .items .item:hover {
