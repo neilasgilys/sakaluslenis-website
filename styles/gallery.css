@@ -135,7 +135,7 @@ nav .items {
   border-radius: 0 0 3px 3px;
 }
 
-/*.shadow {
+.shadow {
   position: fixed;
   top: 0;
   left: 0;
@@ -148,4 +148,4 @@ nav .items {
 
 .shadow.show {
   display: block;
-}*/
+}
