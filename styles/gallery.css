@@ -147,6 +147,10 @@ nav .items {
   background: rgba(0, 0, 0, 0.7);
 }
 
+.shadow, html {
+  overflow: hidden;
+}
+
 .shadow.show {
   display: block;
 }
