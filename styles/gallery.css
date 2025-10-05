@@ -137,6 +137,7 @@ nav .items {
 
 body.scroll-off {
   overflow: hidden;
+  position: fixed;
   width: 100%;
 }
 
