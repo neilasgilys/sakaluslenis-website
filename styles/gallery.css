@@ -135,13 +135,7 @@ nav .items {
   border-radius: 0 0 3px 3px;
 }
 
-body.scroll-off {
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-}
-
-.shadow {
+/*.shadow {
   position: fixed;
   top: 0;
   left: 0;
@@ -154,4 +148,4 @@ body.scroll-off {
 
 .shadow.show {
   display: block;
-}
+}*/
