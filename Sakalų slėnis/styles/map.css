@@ -1,0 +1,20 @@
+.map-container {
+  display: flex;
+  justify-content: center;
+  margin-right: 22px;
+  margin-left: 22px;
+}
+
+#map {
+  min-width: 200px;
+  width: 90%;
+  min-height: 260px;
+  height: 400px;
+  max-width: 2000px;
+}
+
+@media (max-width: 1000px) {
+  #map {
+    height: 280px;
+  }
+}

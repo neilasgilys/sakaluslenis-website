@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <script type="application/ld+json">
+      {
+        "@context" : "https://schema.org",
+        "@type" : "WebSite",
+        "name" : "Sodyba Sakalų slėnis",
+        "url" : "https://sakaluslenis.lt/"
+      }
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kaimo turizmo sodyba Sakalų slėnis</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/background.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/carousel.css">
+    <link rel="stylesheet" href="styles/gallery.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/map.css">
+
+    <script>
+    (function() {
+      if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+      }
+
+      if (window.location.hash) {
+        const clearUrl = window.location.origin + window.location.pathname + window.location.search;
+        history.replaceState(null, document.title, clearUrl);
+      }
+
+      window.scrollTo(0, 0);
+    })();
+  </script>
+  </head>
+  <body>
+    <div class="preview-box">
+      <div class="details">
+        <span class="title">Kategorija:<p>nepriskirta</p></span>
+        <span class="icon">&#x2715</span>
+      </div>
+      <div class="image-box">
+        <img src="" alt="">
+      </div>
+    </div>
+    <div class="shadow"></div>
+
+    <div class="scroll-off"></div>
+
+    <header class="header">
+      <div class="sections">
+      <div class="left-section">
+        <img class="falcon-icon"
+        src="icons/logotipai/falcon-logo.png" onclick="removeHash()">
+      </div>
+
+      <script>
+        function removeHash () {
+          const urlWithoutHash = window.location.origin + window.location.pathname + window.location.search;
+          if ('replaceState' in history) {
+            history.replaceState(null, document.title, urlWithoutHash)
+            window.location.reload();
+          } else {
+            window.location.href = urlWithoutHash;
+          }
+          }
+      </script>
+
+      <div class="right-section">
+        <div class="section">
+          <a href="#pradzia">Pradžia</a>
+        </div>
+        <div class="section">
+          <a href="#galerija">Galerija</a>
+        </div>
+        <div class="section">
+          <a href="#kontaktai">Kontaktai</a>
+        </div>
+      </div>
+      </div>
+    </header>
+
+    <div class="background">
+    <div class="welcome-texts">
+      <img class="sakalu-slenis-logo" src="icons/logotipai/logo-02-motto.png">
+    </div>
+
+      <div class="content">
+      <div class="carousel">
+        <button class="carousel__button carousel__button--left is-hidden">&larr;</button>
+        <div class="carousel__track-container">
+          <ul class="carousel__track">
+            <li class="carousel__slide current-slide">
+              <img class="carousel__image" src="sodyba.jpeg" alt="">
+            </li>
+            <li class="carousel__slide">
+              <img class="carousel__image" src="sodyba2.jpeg" alt="">
+            </li>
+            <li class="carousel__slide">
+              <img class="carousel__image" src="sodyba3.jpeg" alt="">
+            </li>
+            <li class="carousel__slide">
+              <img class="carousel__image" src="sodyba4.jpeg" alt="">
+            </li>
+          </ul>
+        </div>
+        <button class="carousel__button carousel__button--right">&rarr;</button>
+
+        <div class="carousel__nav">
+          <button class="carousel__indicator current-slide"></button>
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
+        </div>
+      </div>
+
+      <script src="carousel.js"></script>
+
+      <div id="pradzia" class="introductions">
+      <div class="introduction">
+        <p>
+        Sodyba „Sakalų slėnis“ įsikūrusi pušyne, prie didelio tvenkinio, 10 km nuo Telšių miesto. Gražiame vienkiemyje sodyba skirta Jūsų šventei - vestuvėms, krikštynoms, gimtadieniams, rengti klasiokų, grupiokų, bendradarbių susitikimus ar tiesiog maloniai ir turiningai praleisti laiką su draugais ar šeima.
+      </p>
+      </div>
+
+      <div class="second-introduction">
+        <p>
+        Jauki pokylių salė talpina 30 žmonių, didelėje terasoje malonu leisti vakarą, besimėgaujant besileidžiančia saule bei šalia tyvuliuojančiu didžiuliu tvenkiniu. Teritorija gražiai sutvarkyta, yra vaikų žaidimų aikštelė, sporto aikštelė, kurioje galima žaisti krepšinį, tinklinį, futbolą, naujai įrengti teniso kortai, o po intensyvių pramogų, sodybos svečiai kviečiami atsipalaiduoti rusiškoje arba japoniškoje pirtyje. Norintiems tiesiog praleisti dieną gryname ore, pasiūlysime terasą ant tvenkinio ar lauko pavėsinę su židiniu, tvenkinyje galima paplaukioti vandens dviračiu ar pasiirstyti valtele.
+      </p>
+      </div>
+
+  <div class="services-container">
+    <div class="services">
+      <div class="services-text">Paslaugos</div>
+      <div class="leisure-container">
+        <div class="leisure-text">Laisvalaikiui</div>
+        <div class="russian-sauna-text">Rusiška pirtis</div>
+        <div class="japanese-tub-text">Japoniškas kubilas</div>
+        <div class="terrace-text">Terasos</div>
+        <div class="bungalow-text">Vasarnamis su židiniu</div>
+        <div class="water-bike-text">Vandens dviratis</div>
+        <div class="tennis-court-text">Teniso kortas</div>
+        <div class="football-field-text">Futbolo aikštė</div>
+        <div class="playground-text">Vaikų žaidimų aikštelė</div>
+      </div>
+
+      <div class="parties-container">
+        <div class="parties-text">Šventėms</div>
+        <div class="banquet-hall-text">30 vietų pokylių salė</div>
+        <div class="kitchen-dishes-text">Virtuvė, indai</div>
+        <div class="sleeping-places-text">24 miegamųjų vietų</div>
+        <div class="separate-area-text">Atskira patalpa nedideliems pobūviams</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wrapper">
+  <div id="galerija" class="gallery">Galerija</div>
+    <nav>
+      <div class="items">
+        <span class="item active" data-name="visi">Visi</span>
+        <span class="item" data-name="gyvenamos patalpos">Gyvenamos patalpos</span>
+        <span class="item" data-name="banketinė salė">Banketinė salė</span>
+        <span class="item" data-name="pirtis">Pirtis</span>
+        <span class="item" data-name="laisvalaikis">Laisvalaikis</span>
+      </div>
+    </nav>
+
+  <div class="gallery-container">
+
+      <div class="image" data-name="gyvenamos patalpos">
+              <img src="images/pirmas-aukstas-1.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="banketinė salė">
+              <img src="images/pirmas-aukstas-6.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="banketinė salė">
+              <img src="images/pirmas-aukstas-2.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="gyvenamos patalpos">
+              <img src="images/pirmas-aukstas-3.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="gyvenamos patalpos">
+              <img src="images/pirmas-aukstas-7.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="banketinė salė">
+              <img src="images/pirmas-aukstas-9.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="gyvenamos patalpos">
+              <img src="images/pirmas-aukstas-10.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="gyvenamos patalpos">
+        <img src="images/pirmas-aukstas-11.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="gyvenamos patalpos">
+              <img src="images/antras-aukstas-1.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="gyvenamos patalpos">
+              <img src="images/antras-aukstas-2.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="gyvenamos patalpos">
+              <img src="images/antras-aukstas-3.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="gyvenamos patalpos">
+              <img src="images/antras-aukstas-4.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="gyvenamos patalpos">
+              <img src="images/antras-aukstas-5.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="gyvenamos patalpos">
+              <img src="images/antras-aukstas-6.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="gyvenamos patalpos">
+              <img src="images/antras-aukstas-7.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="gyvenamos patalpos">
+              <img src="images/antras-aukstas-8.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="gyvenamos patalpos">
+              <img src="images/antras-aukstas-9.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="gyvenamos patalpos">
+              <img src="images/antras-aukstas-10.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="gyvenamos patalpos">
+              <img src="images/antras-aukstas-11.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="gyvenamos patalpos">
+              <img src="images/antras-aukstas-12.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="laisvalaikis">
+              <img src="images/laukas-1.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="laisvalaikis">
+              <img src="images/laukas-2.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="laisvalaikis">
+              <img src="images/laukas-3.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="laisvalaikis">
+              <img src="images/laukas-4.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="laisvalaikis">
+              <img src="images/laukas-5.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="pirtis">
+        <img src="images/pirtis-1.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="pirtis">
+        <img src="images/pirtis-2.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="pirtis">
+              <img src="images/pirtis-3.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="pirtis">
+              <img src="images/pirtis-4.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="pirtis">
+        <img src="images/pirtis-5.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="laisvalaikis">
+              <img src="images/laukas-8.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="laisvalaikis">
+              <img src="images/laukas-9.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="laisvalaikis">
+              <img src="images/laukas-10.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="laisvalaikis">
+              <img src="images/laukas-11.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="laisvalaikis">
+              <img src="images/laukas-12.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="laisvalaikis">
+              <img src="images/laukas-13.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="laisvalaikis">
+              <img src="images/laukas-14.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="laisvalaikis">
+              <img src="images/laukas-15.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="laisvalaikis">
+        <img src="images/laukas-16.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="laisvalaikis">
+        <img src="images/laukas-17.jpeg" alt="">
+        </a>
+      </div>
+
+      <div class="image" data-name="laisvalaikis">
+        <img src="images/laukas-18.jpeg" alt="">
+        </a>
+      </div>
+  </div>
+
+<script src="gallery.js"></script>
+
+    <div class="reserve-container">
+    <div id="reserve" class="reserve">Rezervuok jau dabar</div>
+    <div class="phone-number">+37068664809</div>
+    
+    <div class="or-text">arba</div>
+
+    <div class="logos-container">
+      <a target="_blank" href="https://www.prieezero.lt/lt/apgyvendinimas/sodyba-sakalu-slenis-4415/">
+        <img class="prie-ezero-logo"
+        src="icons/Prie-ezero-logo.png" alt="https://www.prieezero.lt/lt/apgyvendinimas/sodyba-sakalu-slenis-4415/">
+      </a>
+
+      <a target="_blank" href="https://www.booking.com/hotel/lt/sodyba-quot-sakalu-slenis-quot.lt.html">
+        <img class="booking-logo"
+        src="icons/Booking-logo.png">
+      </a>
+    </div>
+  </div>
+</div>
+
+  <div class="destination">Kur mus rasti</div>
+
+  <div class="map-container">
+  <div id="map"></div>
+
+  <script src="map.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADHJmUGtXV4p0SPdGc2elYHyc0JytWYUM&callback=initMap"></script>
+</div>
+
+    <div class="closing-text">Sodyba „Sakalų slėnis” laukia svečių bet kuriuo metų laiku!</div>
+    </div>
+  </div>
+
+    <div id="kontaktai" class="footer-container">
+      <div class="footer">
+        <div class="footer-heading footer-1">
+          <h2>Kontaktai:</h2>
+          <a>+37068664809</a>
+          <a>neringa73@gmail.com</a>
+        </div>
+        <div class="footer-heading footer-2">
+          <h2>Adresas:</h2>
+          <a>Sakalų I km., Viešvėnų sen., Telšių rajonas</a>
+        </div>
+      </div>
+      <a class="copyright">&#169 2025 Sodyba Sakalų slėnis</a>
+    </div>
+  </body>
+</html>
