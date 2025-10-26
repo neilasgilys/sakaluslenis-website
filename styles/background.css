@@ -12,7 +12,7 @@ body {
 .background {
   margin: 0 auto;
   overflow: hidden;
-  background: radial-gradient(rgb(234, 191, 127), rgb(233, 120, 79));
+  background: radial-gradient(rgb(227, 168, 80), rgb(233, 120, 79));
 }
 
 .content {
